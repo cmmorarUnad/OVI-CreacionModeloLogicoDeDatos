@@ -11,47 +11,11 @@
 </head>
 
 <body>
-    <header>
-        <figure id="logoUnad"><img src="img/logoUnadHorizontal.png" id="logo"></figure>
-        <!-- Menu basado en https://codepen.io/dhanushbadge/pen/olsvi -->
-        <nav class="dropdownmenu">
-
-            <ul id="menuPrincipal">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="">Lecturas</a>
-                    <ul id="submenu">
-                        <li><a href="#">Lectura1</a></li>
-                        <li><a href="#">Lectura2</a></li>
-                        <li><a href="#">Lectura3</a></li>
-                        <li><a href="#">Lectura4</a></li>
-                        <li><a href="#">Lectura5</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Multimedia</a>
-                    <ul id="submenu">
-                        <li><a href="#">Multimedia1</a></li>
-                        <li><a href="#">Multimedia2</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Actividades</a>
-                    <ul id="submenu">
-                        <li><a href="#">Actividad1</a></li>
-                        <li><a href="#">Actividad2</a></li>
-                        <li><a href="#">Actividad3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Autores</a></li>
-            </ul>
-        </nav>
-
+    <header id="header">
+        <script>
+            $("#header").load("header.html")
+        </script>
     </header>
-    <div id="headerContainer">
-        <video poster="img/poster.png" autoplay="true" loop>
-            <source src="img/sketching.mp4" type="video/mp4">
-
-        </video>
-    </div>
-
 
 </body>
 <script src="js/jquery-3.3.1.min.js"></script>
