@@ -10,4 +10,4 @@ Las fuentes que se adaptan a la identidad institucional son:
 * Franklin Gothic Heavy
 * Franklin Gothic Book.
 
-La fuente Angsana sera cargada directamente desde el directorio fonts/; las fuentes Franklin seran importadas desde el css.
+Todas las fuentes son cargadas directamente desde el directorio fonts/, debido a que github-pages solo carga contenido estatico y no permite importar (@import) fuentes desde css.
