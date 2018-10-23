@@ -1,15 +1,23 @@
-html {
-    width: auto;
-    height: auto;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 footer {
-    background-color: aqua;
+    background-color: #005883;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+
+li:hover ul#submenu {
+    opacity: 0.8;
+    top: 40px;
+    /* adjust this as per top nav padding top & bottom comes */
+    visibility: visible;
 }
 
 video {
@@ -17,6 +25,35 @@ video {
     min-width: 50%;
     overflow: hidden;
     z-index: -1;
+}
+
+#bloquePrincipal {
+    background-color: palegreen;
+    justify-content: left;
+    height: 200px;
+    width: 100%;
+}
+
+#descripcion1,
+#descripcion2,
+#descripcion3 {
+    vertical-align: top;
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    /* border */
+}
+
+#headerContainer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/poster.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
 }
 
 #logo {
@@ -30,14 +67,26 @@ video {
     height: 80px;
 }
 
-#headerContainer {
+#submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#submenu li {
+    float: none;
     width: 100%;
-    height: 400px;
-    /* overflow: hidden; */
-    position: relative;
-    background-image: url("../img/poster.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+#submenu a:hover {
+    background: #F47920;
+}
+
+#submenu a {
+    background-color: #F0B429;
 }
 
 #videoBG {
@@ -46,23 +95,8 @@ video {
     max-width: 100%;
 }
 
-.dropdownmenu ul,
-.dropdownmenu li {
-    margin: 0;
-    padding: 0;
-}
-
-.dropdownmenu ul {
-    /* background: gray; */
-    list-style: none;
-    /* width: 100%; */
-}
-
-.dropdownmenu li {
-    float: left;
-    position: relative;
-    width: auto;
-    bac
+.articleHome {
+    padding: 1em;
 }
 
 .dropdownmenu a {
@@ -82,35 +116,24 @@ video {
     border-top-right-radius: 0.5em;
 }
 
+.dropdownmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
 .dropdownmenu li:hover a {
     background: #F0B429;
 }
 
-#submenu {
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 35px;
-    visibility: hidden;
-    z-index: 1;
+.dropdownmenu ul,
+.dropdownmenu li {
+    margin: 0;
+    padding: 0;
 }
 
-li:hover ul#submenu {
-    opacity: 0.8;
-    top: 40px;
-    /* adjust this as per top nav padding top & bottom comes */
-    visibility: visible;
-}
-
-#submenu li {
-    float: none;
-    width: 100%;
-}
-
-#submenu a:hover {
-    background: #F47920;
-}
-
-#submenu a {
-    background-color: #F0B429;
+.dropdownmenu ul {
+    /* background: gray; */
+    list-style: none;
+    /* width: 100%; */
 }
