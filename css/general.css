@@ -28,6 +28,7 @@ video {
 }
 
 #bloquePrincipal {
+<<<<<<< HEAD
     /* background-color: palegreen; */
     justify-content: left;
     height: 200px;
@@ -49,6 +50,66 @@ video {
 
 #headerContainer {
     width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/poster.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+#logo {
+    height: 80px;
+=======
+    background-color: palegreen;
+    justify-content: left;
+    height: 200px;
+    width: 100%;
+>>>>>>> 3d58a544d23227e14e5b77910f1c6c57633421be
+}
+
+#descripcion1,
+#descripcion2,
+#descripcion3 {
+    vertical-align: top;
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    /* border */
+}
+
+#submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#submenu li {
+    float: none;
+    width: 100%;
+<<<<<<< HEAD
+}
+
+#submenu a:hover {
+    background: #F47920;
+}
+
+#submenu a {
+    background-color: #F0B429;
+}
+
+#videoBG {
+    position: fixed;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+=======
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -97,6 +158,7 @@ video {
     max-width: 100%;
 }
 
+>>>>>>> 3d58a544d23227e14e5b77910f1c6c57633421be
 .articleHome {
     padding: 1em;
 }
