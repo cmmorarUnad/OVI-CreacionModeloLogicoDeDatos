@@ -28,7 +28,7 @@ video {
 }
 
 #bloquePrincipal {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     justify-content: left;
     height: 200px;
     width: 100%;
@@ -37,12 +37,14 @@ video {
 #descripcion1,
 #descripcion2,
 #descripcion3 {
-    vertical-align: top;
-    display: inline-block;
     align-items: center;
-    width: 30%;
+    background-color: aqua;
+    border-color: #010b0f;
+    display: inline-block;
+    margin: 1em, 2em;
     text-align: center;
-    /* border */
+    vertical-align: top;
+    width: 30%;
 }
 
 #headerContainer {
@@ -60,11 +62,15 @@ video {
     height: 80px;
 }
 
-#logoUnad,
-.dropdownmenu {
+#descripcion1,
+#descripcion2,
+#descripcion3 {
     vertical-align: top;
     display: inline-block;
-    height: 80px;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    /* border */
 }
 
 #submenu {
