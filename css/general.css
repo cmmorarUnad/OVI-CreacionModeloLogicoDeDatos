@@ -62,6 +62,12 @@ video {
     height: 80px;
 }
 
+#logoUnad,
+.dropdownmenu {
+    vertical-align: top;
+    display: inline-block;
+}
+
 #descripcion1,
 #descripcion2,
 #descripcion3 {
