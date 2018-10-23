@@ -4,10 +4,11 @@
 }
 
 footer {
-    background-color: aqua;
+    background-color: #005883;
 }
 
 html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
 }
@@ -26,6 +27,24 @@ video {
     z-index: -1;
 }
 
+#bloquePrincipal {
+    background-color: palegreen;
+    justify-content: left;
+    height: 200px;
+    width: 100%;
+}
+
+#descripcion1,
+#descripcion2,
+#descripcion3 {
+    vertical-align: top;
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    /* border */
+}
+
 #headerContainer {
     width: 100%;
     height: 300px;
@@ -34,6 +53,7 @@ video {
     background-image: url("../img/poster.png");
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.4;
 }
 
 #logo {
@@ -73,6 +93,10 @@ video {
     position: fixed;
     min-width: 100%;
     max-width: 100%;
+}
+
+.articleHome {
+    padding: 1em;
 }
 
 .dropdownmenu a {
