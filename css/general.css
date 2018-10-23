@@ -29,6 +29,8 @@ video {
 
 #bloquePrincipal {
     /* background-color: palegreen; */
+    display: flex;
+    flex-flow: wrap;
     justify-content: left;
     height: 200px;
     width: 100%;
