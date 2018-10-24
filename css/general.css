@@ -5,10 +5,9 @@
 
 footer {
     background-color: #005883;
-    margin-top: 1em;
     display: flex;
-    padding: 2em 1em;
-    /* flex-flow: wrap; */
+    /* margin-top: 2px;
+    padding: 2em 1em; */
 }
 
 html {
@@ -32,7 +31,7 @@ video {
 }
 
 #bloquePrincipal {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     display: flex;
     flex-flow: wrap;
     align-items: stretch;
@@ -47,7 +46,7 @@ video {
     align-items: center;
     /* background-color: aqua; */
     border-color: #010b0f;
-    display: inline-flex;
+    display: row-reverse;
     margin: 1em, 2em;
     padding: 1em;
     text-align: center;
@@ -120,11 +119,15 @@ video {
 }
 
 .articleHome {
-    padding: 1em;
+    padding: 0.4em;
+    margin: 0px 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #005883;
 }
 
 .parrafoHome {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-align: justify;
 }
 
