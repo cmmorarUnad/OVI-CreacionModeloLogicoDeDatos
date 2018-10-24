@@ -53,14 +53,10 @@ video {
 #basePagina {
     display: inline-flex;
     flex-direction: row;
-    justify-content: flex-end;
-    /* flex-flow: wrap;
-
-align-items: center;
-justify-content: center;
-
-/* height: 200px; */
-    width: 100%;
+    justify-content: space-between;
+    /* align-content: stretch; */
+    /* flex-flow: row-reverse; */
+    width: 100vw;
 }
 
 #bloquePrincipal {
@@ -92,6 +88,11 @@ justify-content: center;
     text-align: center;
     vertical-align: top;
     width: 30%;
+}
+
+#footer {
+    display: inline-flex;
+    width: 100vw;
 }
 
 #headerContainer {
@@ -190,11 +191,13 @@ justify-content: center;
 
 .contenidoFooter {
     align-items: center;
-    display: flex;
-    flex-flow: column;
-    justify-items: center;
-    margin: auto;
-    padding: auto;
+    display: inline-flex;
+    flex-flow: row-reverse;
+    /* justify-items: center; */
+    /* margin: auto; */
+    /* padding: auto; */
+    border-style: solid;
+    border-color: rebeccapurple;
 }
 
 .contenidoTextoHome {
