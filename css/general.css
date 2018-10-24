@@ -118,8 +118,17 @@ video {
     /* opacity: 0.4; */
 }
 
+#iconosSociales img {
+    padding: 0 2px;
+}
+
 #logo {
     height: 80px;
+}
+
+#contenido2Footer {
+    display: flex;
+    flex-direction: column;
 }
 
 #logoUnad,
@@ -137,6 +146,10 @@ video {
     width: 30%;
     text-align: center;
     /* border */
+}
+
+#redesSociales {
+    padding: 1em 0.5em;
 }
 
 #submenu {
