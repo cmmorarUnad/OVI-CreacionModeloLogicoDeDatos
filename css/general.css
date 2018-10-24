@@ -3,11 +3,25 @@
     padding: 0;
 }
 
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: inline-flex;
+}
+
 footer {
     background-color: #005883;
-    display: flex;
+    /* display: flex;
+    align-items: center;
+    justify-items: center;
     /* margin-top: 2px;
     padding: 2em 1em; */
+    */
 }
 
 html {
@@ -30,15 +44,38 @@ video {
     z-index: -1;
 }
 
+
+/* #contenido1Footer,
+#contenido2Footer {
+    width: 30vw;
+} */
+
+#basePagina {
+    color: aliceblue;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: stretch; */
+    /* flex-flow: row-reverse; */
+    width: 100vw;
+}
+
 #bloquePrincipal {
     /* background-color: palegreen; */
-    display: flex;
-    flex-flow: wrap;
-    align-items: stretch;
+    display: inline-flex;
+    /* flex-flow: wrap; */
+    flex-wrap: nowrap;
+    /* align-items: stretch; */
+    align-self: auto;
     justify-content: left;
     /* height: 200px; */
     width: 100%;
 }
+
+
+/* #contenido1Footer {
+    width: 200px;
+} */
 
 #descripcion1,
 #descripcion2,
@@ -54,9 +91,25 @@ video {
     width: 30%;
 }
 
+#contenido1Footer h3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#contenido1Footer p {
+    text-align: left;
+    padding-top: 1em;
+}
+
+#footer {
+    display: inline-flex;
+    width: 100vw;
+}
+
 #headerContainer {
     width: 100%;
     height: 50vh;
+    display: flex;
     overflow: hidden;
     position: relative;
     background-image: url("../img/poster.png");
@@ -110,8 +163,9 @@ video {
 
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
-    padding 3em 1em;
     height: 50vh;
+    display: flex;
+    padding 3em 1em;
 }
 
 #textoHomeSubTitulo {
@@ -126,7 +180,7 @@ video {
 #textoHomeTitulo {
     color: whitesmoke;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0;
     font-size: 4em;
     font-weight: 900;
     text-shadow: 3px 3px 2px #333333;
@@ -144,6 +198,22 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #005883;
+}
+
+.contenidoFooter {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 30vw;
+    /* justify-items: center; */
+    /* margin: auto; */
+    /* padding: auto; */
+}
+
+.contenidoTextoHome {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .parrafoHome {
