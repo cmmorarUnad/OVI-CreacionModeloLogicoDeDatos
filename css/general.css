@@ -39,23 +39,31 @@ video {
 } */
 
 #basePagina {
-    display: flex;
-    /* flex-flow: wrap; */
-    align-items: center;
-    justify-content: left;
-    /* height: 200px; */
+    display: inline-flex;
+    flex-direction: row-reverse;
+    /* flex-flow: wrap;
+
+align-items: center;
+justify-content: center;
+
+/* height: 200px; */
     width: 100%;
 }
 
-#bloquePrincipal {
+*/ #bloquePrincipal {
     /* background-color: palegreen; */
-    display: flex;
+    display: inline-flex;
     flex-flow: wrap;
     align-items: stretch;
     justify-content: left;
     /* height: 200px; */
     width: 100%;
 }
+
+
+/* #contenido1Footer {
+    width: 200px;
+} */
 
 #descripcion1,
 #descripcion2,
