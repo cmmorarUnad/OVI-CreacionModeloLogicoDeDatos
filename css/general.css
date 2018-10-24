@@ -3,13 +3,25 @@
     padding: 0;
 }
 
+article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: inline-flex;
+}
+
 footer {
     background-color: #005883;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-items: center;
     /* margin-top: 2px;
     padding: 2em 1em; */
+    */
 }
 
 html {
@@ -40,7 +52,8 @@ video {
 
 #basePagina {
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
     /* flex-flow: wrap;
 
 align-items: center;
@@ -50,11 +63,13 @@ justify-content: center;
     width: 100%;
 }
 
-*/ #bloquePrincipal {
+#bloquePrincipal {
     /* background-color: palegreen; */
     display: inline-flex;
-    flex-flow: wrap;
-    align-items: stretch;
+    /* flex-flow: wrap; */
+    flex-wrap: nowrap;
+    /* align-items: stretch; */
+    align-self: auto;
     justify-content: left;
     /* height: 200px; */
     width: 100%;
@@ -135,8 +150,12 @@ justify-content: center;
 
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
-    padding 3em 1em;
     height: 50vh;
+}
+
+#textoHome article {
+    display: flex;
+    padding 3em 1em;
 }
 
 #textoHomeSubTitulo {
