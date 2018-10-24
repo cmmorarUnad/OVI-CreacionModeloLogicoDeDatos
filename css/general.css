@@ -170,3 +170,7 @@ video {
     list-style: none;
     /* width: 100%; */
 }
+
+.parrafoImagen {
+    padding: 1em 2em;
+}
