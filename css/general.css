@@ -111,6 +111,14 @@ video {
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
     padding 3em 1em;
+    height: 50vh;
+}
+
+#textoHomeTitulo {
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 4em;
+    text-shadow: 3px 3px 2px #333333;
 }
 
 #videoBG {
@@ -173,4 +181,6 @@ video {
 
 .parrafoImagen {
     padding: 1em 2em;
+    color: whitesmoke;
+    font-weight: 600;
 }
