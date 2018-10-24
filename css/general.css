@@ -114,10 +114,22 @@ video {
     height: 50vh;
 }
 
+#textoHomeSubTitulo {
+    color: whitesmoke;
+    text-align: center;
+    /* padding-top: 2rem; */
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: 3px 3px 2px #333333;
+}
+
 #textoHomeTitulo {
     color: whitesmoke;
-    font-weight: 900;
+    text-align: center;
+    padding-top: 2rem;
     font-size: 4em;
+    font-weight: 900;
     text-shadow: 3px 3px 2px #333333;
 }
 
