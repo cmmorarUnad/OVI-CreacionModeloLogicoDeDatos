@@ -51,6 +51,7 @@ video {
 } */
 
 #basePagina {
+    color: aliceblue;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
@@ -88,6 +89,16 @@ video {
     text-align: center;
     vertical-align: top;
     width: 30%;
+}
+
+#contenido1Footer h3 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#contenido1Footer p {
+    text-align: left;
+    padding-top: 1em;
 }
 
 #footer {
@@ -191,13 +202,12 @@ video {
 
 .contenidoFooter {
     align-items: center;
-    display: inline-flex;
-    flex-flow: row-reverse;
+    display: flex;
+    flex-flow: column wrap;
+    width: 30vw;
     /* justify-items: center; */
     /* margin: auto; */
     /* padding: auto; */
-    border-style: solid;
-    border-color: rebeccapurple;
 }
 
 .contenidoTextoHome {
