@@ -6,6 +6,8 @@
 footer {
     background-color: #005883;
     display: flex;
+    align-items: center;
+    justify-items: center;
     /* margin-top: 2px;
     padding: 2em 1em; */
 }
@@ -28,6 +30,21 @@ video {
     min-width: 50%;
     overflow: hidden;
     z-index: -1;
+}
+
+
+/* #contenido1Footer,
+#contenido2Footer {
+    width: 30vw;
+} */
+
+#basePagina {
+    display: flex;
+    /* flex-flow: wrap; */
+    align-items: center;
+    justify-content: left;
+    /* height: 200px; */
+    width: 100%;
 }
 
 #bloquePrincipal {
@@ -144,6 +161,15 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #005883;
+}
+
+.contenidoFooter {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    margin: auto;
+    padding: auto;
 }
 
 .parrafoHome {
