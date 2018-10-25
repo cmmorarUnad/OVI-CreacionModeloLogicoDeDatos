@@ -28,6 +28,9 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
 }
 
 li:hover ul#submenu {
@@ -91,6 +94,12 @@ video {
     width: 30%;
 }
 
+#contador {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
 #contenido1Footer h3 {
     text-align: center;
     padding-top: 1em;
@@ -104,6 +113,11 @@ video {
 #footer {
     display: inline-flex;
     width: 100vw;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
 }
 
 #headerContainer {
