@@ -16,12 +16,14 @@ section {
 
 footer {
     background-color: #005883;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     /* display: flex;
     align-items: center;
     justify-items: center;
     /* margin-top: 2px;
     padding: 2em 1em; */
-    */
 }
 
 html {
@@ -65,6 +67,7 @@ video {
 
 #bloquePrincipal {
     /* background-color: palegreen; */
+    /* display: none; */
     display: inline-flex;
     /* flex-flow: wrap; */
     flex-wrap: nowrap;
@@ -73,6 +76,7 @@ video {
     justify-content: left;
     /* height: 200px; */
     width: 100%;
+    /* margin-bottom: 200px; */
 }
 
 
@@ -241,6 +245,10 @@ video {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.contenidosCentrales {
+    margin-bottom: 200px;
 }
 
 .parrafoHome {
