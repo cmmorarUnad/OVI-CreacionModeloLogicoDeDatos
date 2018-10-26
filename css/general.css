@@ -224,7 +224,7 @@ video {
     background-color: rgba(0, 88, 131, 0.5);
     height: 50vh;
     display: flex;
-    padding 3em 1em;
+    padding: 3em 1em;
 }
 
 #textoHomeSubTitulo {
