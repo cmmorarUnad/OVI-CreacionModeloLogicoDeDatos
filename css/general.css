@@ -68,6 +68,7 @@ video {
 
 #bloquePrincipal {
     /* background-color: palegreen; */
+    /* display: none; */
     display: inline-flex;
     /* flex-flow: wrap; */
     flex-wrap: nowrap;
@@ -76,6 +77,7 @@ video {
     justify-content: left;
     /* height: 200px; */
     width: 100%;
+    margin-bottom: 200px;
 }
 
 
