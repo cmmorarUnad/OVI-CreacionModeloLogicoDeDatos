@@ -204,7 +204,8 @@ video {
 }
 
 #textoAct1,
-#textoAct2 {
+#textoAct2,
+#textoAct3 {
     color: aliceblue;
     text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
     display: flex;
