@@ -203,8 +203,7 @@ video {
     background-color: #F0B429;
 }
 
-
-/* #textoAct1,
+#textoAct1,
 #textoAct2 {
     color: aliceblue;
     text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
@@ -212,13 +211,14 @@ video {
     flex-direction: column;
     font-size: 1.5em;
     padding: 1em;
-} */
+}
 
-#imgAct1,
+
+/* #imgAct1,
 #imgAc2 p {
     color: aliceblue;
     padding: 1em;
-}
+} */
 
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
