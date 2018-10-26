@@ -223,6 +223,14 @@ video {
     max-width: 100%;
 }
 
+.actividades {
+    display: flex;
+    background-image: url(../img/backgroundActividades.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
 .articleHome {
     padding: 0.4em;
     margin: 0px 2px;
