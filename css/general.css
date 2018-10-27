@@ -276,8 +276,9 @@ video {
 
 .autor {
     border-style: solid;
-    margin: 0 2px;
+    margin: 2px;
     border-color: #F47920;
+    box-shadow: 1px 3px 1px 1px #005883;
 }
 
 .articleHome {
@@ -366,6 +367,7 @@ video {
     display: flex;
     flex-direction: column;
     margin-top: 1em;
+    padding: 0 1em;
 }
 
 .infoAutor p {
