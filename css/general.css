@@ -66,6 +66,11 @@ video {
     flex-direction: row-reverse;
 }
 
+#Autores {
+    /* display: flex;
+    flex-direction: column; */
+}
+
 #basePagina {
     color: aliceblue;
     display: inline-flex;
@@ -269,6 +274,13 @@ video {
     background-size: cover;
 } */
 
+.autor {
+    border-style: solid;
+    margin: 2px;
+    border-color: #F47920;
+    box-shadow: 1px 3px 1px 1px #005883;
+}
+
 .articleHome {
     padding: 0.4em;
     margin: 0px 2px;
@@ -301,6 +313,10 @@ video {
     text-align: center;
     color: aliceblue;
     text-shadow: #333333;
+}
+
+.fotoAutor {
+    width: 150px;
 }
 
 .parrafoHome {
@@ -345,6 +361,17 @@ video {
     /* background: gray; */
     list-style: none;
     /* width: 100%; */
+}
+
+.infoAutor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    padding: 0 1em;
+}
+
+.infoAutor p {
+    padding: 1px;
 }
 
 .parrafoImagen {
