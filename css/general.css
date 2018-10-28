@@ -256,6 +256,9 @@ video {
     font-weight: 900;
     text-shadow: 3px 3px 2px #333333;
 }
+#textoRelacion {
+    background-color: #005883;
+}
 #videoBG {
     position: fixed;
     min-width: 100%;
