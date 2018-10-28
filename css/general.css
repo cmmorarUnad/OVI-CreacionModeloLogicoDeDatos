@@ -170,12 +170,22 @@ video {
     flex-direction: column;
 }
 
+#contenidoRelaciones {
+    color: aliceblue;
+    text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 1em 2em;
+}
+
+
+}
 #logoUnad,
 .dropdownmenu {
     vertical-align: top;
     display: inline-block;
 }
-
 #descripcion1,
 #descripcion2,
 #descripcion3 {
@@ -186,11 +196,9 @@ video {
     text-align: center;
     /* border */
 }
-
 #redesSociales {
     padding: 1em 0.5em;
 }
-
 #submenu {
     left: 0;
     opacity: 0;
@@ -199,20 +207,16 @@ video {
     visibility: hidden;
     z-index: 1;
 }
-
 #submenu li {
     float: none;
     width: 100%;
 }
-
 #submenu a:hover {
     background: #F47920;
 }
-
 #submenu a {
     background-color: #F0B429;
 }
-
 #textoAct1,
 #textoAct2,
 #textoAct3,
@@ -225,20 +229,17 @@ video {
     padding: 1em;
 }
 
-
 /* #imgAct1,
 #imgAc2 p {
     color: aliceblue;
     padding: 1em;
 } */
-
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
     height: 50vh;
     display: flex;
     padding: 3em 1em;
 }
-
 #textoHomeSubTitulo {
     color: whitesmoke;
     text-align: center;
@@ -247,7 +248,6 @@ video {
     text-align: left;
     text-shadow: 3px 3px 2px #333333;
 }
-
 #textoHomeTitulo {
     color: whitesmoke;
     text-align: center;
@@ -256,37 +256,35 @@ video {
     font-weight: 900;
     text-shadow: 3px 3px 2px #333333;
 }
-
 #videoBG {
     position: fixed;
     min-width: 100%;
     max-width: 100%;
 }
-
 .actividades {
     background-image: url(../img/backgroundActividades.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
+    /* background-size: cover; */
+    
     display: flex;
     flex-direction: column;
     /* height: 100vh; */
+    
     width: 100vw;
 }
-
 
 /* .actividades::after {
     background-image: url(../img/backgroundActividades.png);
     background-repeat: no-repeat;
     background-size: cover;
 } */
-
 .autor {
     border-style: solid;
     margin: 2px;
     border-color: #F47920;
     box-shadow: 1px 3px 1px 1px #005883;
 }
-
 .articleHome {
     padding: 0.4em;
     margin: 0px 2px;
@@ -294,7 +292,6 @@ video {
     border-width: 1px;
     border-color: #005883;
 }
-
 .contenidoFooter {
     align-items: center;
     display: flex;
@@ -304,34 +301,44 @@ video {
     /* margin: auto; */
     /* padding: auto; */
 }
-
+.contenidoLecturas {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/backgroundActividades.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    /* background-size: cover; */
+    
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    
+    width: 100vw;
+}
 .contenidoTextoHome {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-
 .contenidosCentrales {
     /* margin-bottom: 200px; */
 }
-
 .contenidosCentrales h1 {
     text-align: center;
     color: aliceblue;
     text-shadow: #333333;
 }
-
 .fotoAutor {
     width: 150px;
 }
-
 .parrafoHome {
     /* margin-top: 30px; */
+    
     text-align: justify;
 }
-
 .dropdownmenu a {
     /* background: #30A6E6; */
+    
     color: rgb(12, 12, 12);
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -346,40 +353,34 @@ video {
     border-bottom-left-radius: 1em;
     border-top-right-radius: 0.5em;
 }
-
 .dropdownmenu li {
     float: left;
     position: relative;
     width: auto;
 }
-
 .dropdownmenu li:hover a {
     background: #F0B429;
 }
-
 .dropdownmenu ul,
 .dropdownmenu li {
     margin: 0;
     padding: 0;
 }
-
 .dropdownmenu ul {
     /* background: gray; */
+    
     list-style: none;
     /* width: 100%; */
 }
-
 .infoAutor {
     display: flex;
     flex-direction: column;
     margin-top: 1em;
     padding: 0 1em;
 }
-
 .infoAutor p {
     padding: 1px;
 }
-
 .parrafoImagen {
     padding: 1em 2em;
     color: whitesmoke;
