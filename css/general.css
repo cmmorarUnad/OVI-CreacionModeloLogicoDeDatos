@@ -186,6 +186,10 @@ video {
     vertical-align: top;
     display: inline-block;
 }
+#logoYoutube {
+    width: 100px;
+    height: auto;
+}
 #descripcion1,
 #descripcion2,
 #descripcion3 {
