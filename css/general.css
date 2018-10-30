@@ -1,3 +1,5 @@
+/* INICIO TAGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,44 +18,37 @@ section {
 
 footer {
     background-color: #005883;
-    /* position: fixed; */
     bottom: 0;
     left: 0;
-    /* display: flex;
-    align-items: center;
-    justify-items: center;
-    /* margin-top: 2px;
-    padding: 2em 1em; */
 }
 
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: auto;
-    height: auto;
+    align-self: auto;
     display: flex;
     flex-direction: column;
-    align-self: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    width: auto;
 }
 
 li:hover ul#submenu {
     opacity: 0.8;
     top: 40px;
-    /* adjust this as per top nav padding top & bottom comes */
     visibility: visible;
 }
 
 video {
-    position: fixed;
     min-width: 50%;
     overflow: hidden;
+    position: fixed;
     z-index: -1;
 }
 
 
-/* #contenido1Footer,
-#contenido2Footer {
-    width: 30vw;
-} */
+/* FIN TAGS */
+
+
+/* INICIO ID's */
 
 #actividades {
     display: flex;
@@ -66,68 +61,50 @@ video {
     flex-direction: row-reverse;
 }
 
-#Autores {
-    /* display: flex;
-    flex-direction: column; */
-}
-
 #basePagina {
     color: aliceblue;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-content: stretch; */
-    /* flex-flow: row-reverse; */
     width: 100vw;
 }
 
-#bloquePrincipal {
-    /* background-color: palegreen; */
-    /* display: none; */
-    display: inline-flex;
-    /* flex-flow: wrap; */
-    flex-wrap: nowrap;
-    /* align-items: stretch; */
-    align-self: auto;
-    justify-content: left;
-    /* height: 200px; */
-    width: 100%;
-    /* margin-bottom: 200px; */
-}
-
-
-/* #contenido1Footer {
-    width: 200px;
-} */
-
-#descripcion1,
-#descripcion2,
-#descripcion3 {
-    align-items: center;
-    /* background-color: aqua; */
-    border-color: #005883;
-    display: row-reverse;
-    margin: 1em, 2em;
-    padding: 1em;
-    text-align: center;
-    vertical-align: top;
-    width: 30%;
-}
-
 #contador {
+    align-content: flex-end;
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
 }
 
 #contenido1Footer h3 {
-    text-align: center;
     padding-top: 1em;
+    text-align: center;
 }
 
 #contenido1Footer p {
-    text-align: left;
     padding: 1em;
+    text-align: left;
+}
+
+#contenido2Footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenidoRelaciones {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
+    padding: 1em 2em;
+}
+
+#bloquePrincipal {
+    align-self: auto;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    width: 100%;
 }
 
 #footer {
@@ -136,25 +113,22 @@ video {
 }
 
 #header {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    /* position: sticky; */
     background-color: white;
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
     z-index: inherit;
 }
 
 #headerContainer {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    overflow: hidden;
-    position: relative;
     background-image: url("../img/poster.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* opacity: 0.4; */
+    display: flex;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 #iconosSociales img {
@@ -165,44 +139,21 @@ video {
     height: 80px;
 }
 
-#contenido2Footer {
-    display: flex;
-    flex-direction: column;
-}
-
-#contenidoRelaciones {
-    color: aliceblue;
-    text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5em;
-    padding: 1em 2em;
-}
-
-
-}
 #logoUnad,
 .dropdownmenu {
-    vertical-align: top;
     display: inline-block;
+    vertical-align: top;
 }
+
 #logoYoutube {
-    width: 100px;
     height: auto;
+    width: 100px;
 }
-#descripcion1,
-#descripcion2,
-#descripcion3 {
-    vertical-align: top;
-    display: inline-block;
-    align-items: center;
-    width: 30%;
-    text-align: center;
-    /* border */
-}
+
 #redesSociales {
     padding: 1em 0.5em;
 }
+
 #submenu {
     left: 0;
     opacity: 0;
@@ -211,141 +162,136 @@ video {
     visibility: hidden;
     z-index: 1;
 }
+
 #submenu li {
     float: none;
     width: 100%;
 }
+
 #submenu a:hover {
     background: #F47920;
 }
+
 #submenu a {
     background-color: #F0B429;
 }
+
 #textoAct1,
 #textoAct2,
 #textoAct3,
 .actividades {
     color: aliceblue;
-    text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
     display: flex;
     flex-direction: column;
     font-size: 1.5em;
     padding: 1em;
+    text-shadow: .2em .2em .3em gray, 0 0 1em white, 0 0 0.2em black;
 }
 
-/* #imgAct1,
-#imgAc2 p {
-    color: aliceblue;
-    padding: 1em;
-} */
 #textoHome {
     background-color: rgba(0, 88, 131, 0.5);
-    height: 50vh;
     display: flex;
+    height: 50vh;
     padding: 3em 1em;
 }
+
 #textoHomeSubTitulo {
     color: whitesmoke;
-    text-align: center;
     font-size: 1.5em;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
     text-shadow: 3px 3px 2px #333333;
 }
+
 #textoHomeTitulo {
     color: whitesmoke;
-    text-align: center;
-    padding-top: 0;
     font-size: 4em;
     font-weight: 900;
+    padding-top: 0;
+    text-align: center;
     text-shadow: 3px 3px 2px #333333;
 }
+
 #textoRelacion {
     background-color: rgba(00, 58, 83, 0.5);
 }
+
 #videoBG {
-    position: fixed;
-    min-width: 100%;
     max-width: 100%;
+    min-width: 100%;
+    position: fixed;
 }
+
+
+/* FIN ID's */
+
+
+/* INICIO CLASES */
+
 .actividades {
     background-image: url(../img/backgroundActividades.png);
     background-repeat: no-repeat;
     background-size: 100vw;
-    /* background-size: cover; */
-    
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
-    
     width: 100vw;
 }
 
-/* .actividades::after {
-    background-image: url(../img/backgroundActividades.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-.autor {
-    border-style: solid;
-    margin: 2px;
-    border-color: #F47920;
-    box-shadow: 1px 3px 1px 1px #005883;
-}
 .articleHome {
-    padding: 0.4em;
-    margin: 0px 2px;
     border-style: solid;
     border-width: 1px;
     border-color: #005883;
+    margin: 0px 2px;
+    padding: 0.4em;
 }
+
+.autor {
+    border-color: #F47920;
+    border-style: solid;
+    box-shadow: 1px 3px 1px 1px #005883;
+    margin: 2px;
+}
+
 .contenidoFooter {
     align-items: center;
     display: flex;
     flex-flow: column wrap;
     width: 30vw;
-    /* justify-items: center; */
-    /* margin: auto; */
-    /* padding: auto; */
 }
+
 .contenidoLecturas {
     display: flex;
-    flex-direction: column;
     background-image: url(../img/backgroundActividades.png);
     background-repeat: no-repeat;
     background-size: 100vw;
-    /* background-size: cover; */
-    
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
-    
     width: 100vw;
 }
+
 .contenidoTextoHome {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-.contenidosCentrales {
-    /* margin-bottom: 200px; */
-}
+
 .contenidosCentrales h1 {
-    text-align: center;
     color: aliceblue;
+    text-align: center;
     text-shadow: #333333;
 }
+
 .fotoAutor {
     width: 150px;
 }
+
 .parrafoHome {
-    /* margin-top: 30px; */
-    
     text-align: justify;
 }
+
 .dropdownmenu a {
-    /* background: #30A6E6; */
-    
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 0.5em;
     color: rgb(12, 12, 12);
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -357,39 +303,44 @@ video {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 0.5em;
 }
+
 .dropdownmenu li {
     float: left;
     position: relative;
     width: auto;
 }
+
 .dropdownmenu li:hover a {
     background: #F0B429;
 }
+
 .dropdownmenu ul,
 .dropdownmenu li {
     margin: 0;
     padding: 0;
 }
+
 .dropdownmenu ul {
-    /* background: gray; */
-    
     list-style: none;
-    /* width: 100%; */
 }
+
 .infoAutor {
     display: flex;
     flex-direction: column;
     margin-top: 1em;
     padding: 0 1em;
 }
+
 .infoAutor p {
     padding: 1px;
 }
+
 .parrafoImagen {
-    padding: 1em 2em;
     color: whitesmoke;
     font-weight: 600;
+    padding: 1em 2em;
 }
+
+
+/* FIN CLASES */
