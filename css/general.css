@@ -261,7 +261,7 @@ video {
     text-shadow: 3px 3px 2px #333333;
 }
 #textoRelacion {
-    background-color: #005883;
+    background-color: rgba(00, 58, 83, 0.5);
 }
 #videoBG {
     position: fixed;
