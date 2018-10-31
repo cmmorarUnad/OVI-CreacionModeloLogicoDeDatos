@@ -61,7 +61,12 @@ video {
     flex-direction: row-reverse;
 }
 
+#Autores {
+    margin-bottom: 20vh;
+}
+
 #basePagina {
+    align-items: flex-end;
     color: aliceblue;
     display: inline-flex;
     flex-direction: row;
@@ -110,6 +115,16 @@ video {
 #footer {
     display: inline-flex;
     width: 100vw;
+}
+
+#ejemploEntidad {
+    display: inline-flex;
+    align-self: auto;
+    padding: 2em;
+}
+
+#ejemploEntidad ol {
+    margin-left: 2em;
 }
 
 #header {
